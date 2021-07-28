@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.img-fluid{
+    width: auto;
+}
+
+menu{
+    background: rgb(203, 38, 42);
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu li{
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+menu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:link{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu a:hover{
+		color:#a47db6;
+		font-weight: bold;
+		text-decoration: none;
+}
+
+.boton{
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    color: rgb(203, 38, 42);
+}
+
+.cerrarsesion i{
+    width: 50px;
+    height: 50px;
+    color: rgb(203, 38, 42);
+}

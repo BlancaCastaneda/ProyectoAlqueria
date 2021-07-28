@@ -1,0 +1,22 @@
+.footer1{
+    max-width: 1000px;
+    width: 100%;
+    line-height: 50px;
+    background: rgb(203, 38, 42);
+    max-height: 80px;
+    margin: auto;
+    color: #fff;
+    font-size: 14px;
+}
+
+.psiguenos{
+    background: rgb(203, 38, 42);
+}
+
+
+
+@media screen and (min-width:768px){
+	.footer1{
+		flex-direction: row;
+	}
+}
