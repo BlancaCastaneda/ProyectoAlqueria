@@ -1,24 +1,64 @@
 import './App.css';
+import HomeInicio from './pages/HomeInicio';
+import Granjas from './pages/Granjas';
+import ProduccionLactea from './pages/ProduccionLactea';
+import ModificarProduccion from './pages/ModificarProduccion';
+import RegistrarProduccion from './pages/RegistrarProduccion';
+import Actualizar from './pages/Actualizar';
+import Registrate from './pages/Registrate';
+import React from "react";
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Login from './components/login/Login';
+import Footer from './components/footer/Footer';
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <header className="App-header">
+
+    <div>
+       <Router>
+    
+        <Switch>
+              <Route path="/login">
+                <Login />
+              </Route>
+
+              <Route path="/home">
+                <HomeInicio />
+              </Route>
+
+              <Route path="/granjas">
+                <Granjas />
+              </Route>
+
+              <Route path="/produccionlactea">
+                <ProduccionLactea />
+              </Route> 
+
+              <Route path="/modificarproduccion">
+                <ModificarProduccion />
+              </Route> 
+
+              <Route path="/registrarproduccion">
+                <RegistrarProduccion />
+              </Route> 
+
+              <Route path="/actualizar">
+                <Actualizar />
+              </Route> 
+
+              <Route path="/registrate">
+                <Registrate />
+              </Route> 
+        </Switch>
         
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Footer/>
+              
+
+      </Router>
+    </div>    
   );
 }
 
 export default App;
+          
+            
