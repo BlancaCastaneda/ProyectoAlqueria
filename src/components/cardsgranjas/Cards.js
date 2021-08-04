@@ -1,10 +1,10 @@
-import './Footer.css';
+import './Cards.css';
 import React from 'react';
 import{ Link } from "react-router-dom";
 import finca from './finca.jpg';
 
 
-function Footer(){
+function Cards(){
     return (
     <div>
         <section id="footer1">
@@ -101,4 +101,4 @@ function Footer(){
     </div>
     );
 }
-export default Footer;
+export default Cards;

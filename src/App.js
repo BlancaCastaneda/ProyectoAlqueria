@@ -10,6 +10,7 @@ import React from "react";
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Login from './components/login/Login';
 import Footer from './components/footer/Footer';
+import Cards from './components/cardsgranjas/Cards';
 
 function App(){
   return (
@@ -48,6 +49,10 @@ function App(){
 
               <Route path="/registrate">
                 <Registrate />
+              </Route> 
+
+              <Route path="/cards">
+                <Cards />
               </Route> 
         </Switch>
         
