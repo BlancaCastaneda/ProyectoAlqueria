@@ -1,16 +1,19 @@
 import './Home.css';
-import React from 'react';
+import Ganadero from './ganadero.jpeg';
 
 function Home(){
     return(
-        <div className="login">
-            <div className="granjas">
-                <button className="btn1">Granjas</button>
-            </div>
+        <section className="home">
+            <div className="home1">
+                <div className="granja">
+                    <button className="granjas1">Granjas</button>
+                </div>
 
-            <div className="plactea">
-                <button className="btn2">Producción Láctea</button>
-            </div>
-        </div>    
+                <div className="granja">
+                    <button className="granjas1">Producción Láctea</button>
+                </div>
+            </div> 
+        </section>      
     );
-};export default Home;
+};
+export default Home;

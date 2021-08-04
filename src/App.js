@@ -9,14 +9,17 @@ import Registrate from './pages/Registrate';
 import React from "react";
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import Login from './components/login/Login';
+import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import Cards from './components/cardsgranjas/Cards';
+import Nav from './components/nav/Nav';
 
 function App(){
   return (
 
     <div>
        <Router>
+         <Nav/>
     
         <Switch>
               <Route path="/login">
@@ -24,7 +27,8 @@ function App(){
               </Route>
 
               <Route path="/home">
-                <HomeInicio />
+                <Home />
+            
               </Route>
 
               <Route path="/granjas">

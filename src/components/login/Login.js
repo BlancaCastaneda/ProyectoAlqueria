@@ -1,22 +1,27 @@
 import './Login.css';
-//import React from 'react';
-//import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import Granja from './granja.jpeg';
 
 function Login(){
     return(
         <div className="login">
-            <div className="isesion">
-                <p className="boton1">Inicio de Sesión</p>
-            </div>
+            <div className="fondo">
+                <div className="inicio">
+                    <p className="sesion">INICIO DE SESIÓN</p>
+                </div>
 
-            <div className="usuario">
-                <button className="boton1">Usuario</button>
-            </div>
+                <div className="isesion">
+                    <button className="botones">Usuario</button>
+                </div>
 
-            <div className="password">
-                <button className="boton2">Contraseña</button>
-            </div>
-        </div>    
+                <div className="isesion">
+                    <button className="botones">Contraseña</button>
+                </div>   
+
+                <div className="isesion">
+                    <button className="botones">Ingresar</button>
+                </div>  
+            </div> 
+        </div>      
     );
 };
 
