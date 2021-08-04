@@ -1,17 +1,103 @@
-.footer1{
-    max-width: 1000px;
-    width: 100%;
-    line-height: 50px;
-    background: rgb(203, 38, 42);
-    max-height: 80px;
-    margin: auto;
-    color: #fff;
-    font-size: 14px;
+body{
+    background-color: rgb(223, 223, 235);
+    padding: 200px;
 }
 
-.psiguenos{
-    background: rgb(203, 38, 42);
+h1{
+    color:#cb262a;
+    text-align: left;
+    margin-left: 270px;
+    margin-top: 50px;
+    font-weight: bold;
 }
+.card{
+    width: 200px;
+    height: 360px;
+    background-color: #f7e8c7;
+    border-radius: 4%;
+    box-shadow: rgb(112, 109, 109);
+    margin-top: 20px;
+    box-shadow:3px 3px 3px 1px rgba(73, 71, 71, 0.2);;
+}
+.finca{
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+   
+}
+#listadogranjas{
+    background-color: rgb(202, 199, 199);
+    width: 300px;
+    height: 50px;
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+}
+h3{
+    text-align: center;
+    color: #3a9fe3;
+    font-size:x-large;
+}
+h4{
+    text-align: center;
+    color: #3a9fe3;
+    font-size: 20px;
+}
+h5{
+    text-align: center;
+    color: #636463;
+    stroke: #636463;
+    padding: 1.8px;
+    font-size: 18px;
+}
+h6{
+    text-align: center;
+    color: #636463;
+}
+
+#btneditar{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:#3a9fe3;
+    color: white;
+
+}
+#btneliminar{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:#3a9fe3;
+    color: white;
+}
+#card2{
+    flex-direction: row;
+}
+#card4{
+    float: right;
+}
+#card6{
+    float: right;
+}
+#nuevagranja{
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #3a9fe3;
+    color: white;
+    font-size: 25px;
+    border-color: rgb(70, 71, 67);
+    border-radius: 40px 40px 40px 40px;  
+    box-shadow:2px 2px 2px 1px rgba(73, 71, 71, 0.2);;
+    
+}
+
+
+
+
 
 
 
