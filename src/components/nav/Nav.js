@@ -16,7 +16,7 @@ function Nav(){
                     <ul className="nav" type="none">
                         
                         <li className="item">
-                            <Link to="/home"><i class="fas fa-home" ></i> Home</Link>
+                            <Link to="/home"><i class="fas fa-home"></i> Home</Link>
                         </li>
 
                         <li className="item">
@@ -24,13 +24,14 @@ function Nav(){
                         </li>
 
                         <li className="item">
-                            <Link to="/produccionlactea"><i class="fas fa-glass-whiskey"></i>Producción Láctea</Link>
+                            <Link to="/produccion"><i class="fas fa-glass-whiskey"></i>Producción Láctea</Link>
                         </li>
                     </ul>
                 </div>
 
                 <div className="boton">
-                    <button className="cerrarsesion"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</button>
+                    <Link to="/login">
+                    <button className="cerrarsesion"><i class="fas fa-sign-out-alt"></i> Cerrar Sesión</button></Link>
                 </div>
             </nav>
         </div>

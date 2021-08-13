@@ -1,7 +1,7 @@
 import './App.css';
 import HomeInicio from './pages/HomeInicio';
 import Granjas from './pages/Granjas';
-import ProduccionLactea from './pages/ProduccionLactea';
+import Produccion  from './pages/Produccion';
 import ModificarProduccion from './pages/ModificarProduccion';
 import RegistrarProduccion from './pages/RegistrarProduccion';
 import Actualizar from './pages/Actualizar';
@@ -12,6 +12,8 @@ import Login from './components/login/Login';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import Nav from './components/nav/Nav';
+import firebase from './firebase';
+
 
 function App(){
   return (
@@ -34,8 +36,8 @@ function App(){
                 <Granjas />
               </Route>
 
-              <Route path="/produccionlactea">
-                <ProduccionLactea />
+              <Route path="/produccion">
+                <Produccion />
               </Route> 
 
               <Route path="/modificarproduccion">

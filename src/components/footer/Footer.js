@@ -34,7 +34,7 @@ function Footer(){
                         </li>
 
                         <li>
-                            <a href="https://www.linkedin.com/company/alquer-a-colombia/" className="redes"><img width="45" className="linkedin" src={linkedin} alt="pagina linkedin"/></a>
+                            <a href="https://www.linkedin.com/company/alquer-a-colombia/" blank className="redes"><img width="45" className="linkedin" src={linkedin} alt="pagina linkedin"/></a>
                         </li>
                     </ul> 
             </div>           
