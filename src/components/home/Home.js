@@ -10,7 +10,7 @@ function Home(){
                 </div>
 
                 <div className="granja">
-                    <button className="granjas1">Producción Láctea</button>
+                    <button className="granjas1"><a href="produccion">Producción Láctea</a></button>
                 </div>
             </div> 
         </section>      
