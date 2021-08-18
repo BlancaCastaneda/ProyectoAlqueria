@@ -1,0 +1,61 @@
+.agregarProduccion{
+    margin: 10px 0 0 20px;
+   
+}
+
+.agregar{
+    box-shadow: 12px 12px 1px;
+    width: 200px;
+    height: 40px;
+    background-color: #3a9fe3;
+    color: white;
+    font: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#tablaProduccion{
+    width: 1000px;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+.cabecera1 {
+    background-color: rgba(99, 100, 99, .3);
+    color:blue;
+    font-weight: bold;
+}
+
+.form-group{
+    background-color: rgba(99, 100, 99, .3);
+    color:blue;
+    font-weight: bold;
+}
+
+.form-control{
+    background-color: rgba(99, 100, 99, .3);
+    color:blue;
+}
+
+.granja a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.botonesmodal{
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-primary{
+    margin-top: 20px; 
+    margin-right: 10px;
+}
+
+.btn-danger{
+    margin-top: 20px; 
+}

@@ -3,6 +3,8 @@ import HomeInicio from './pages/HomeInicio';
 import Granjas from './pages/Granjas';
 import ProduccionLactea from './pages/ProduccionLactea';
 import Registrate from './pages/Registrate';
+
+import Produccion  from './pages/Produccion';
 import ModificarProduccion from './pages/ModificarProduccion';
 import RegistrarProduccion from './pages/RegistrarProduccion';
 import Actualizar from './pages/Actualizar';
@@ -20,6 +22,9 @@ import firebase from '../firebase/firebase';
 import 'bootstrap/dist/bootstrap.min.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import {Modal, ModalBody, ModalHeader, ModalFooter} from 'reactstrap';
+import firebase from './firebase';
+
+
 function App(){
   return (
 
@@ -41,8 +46,8 @@ function App(){
                 <Granjas />
               </Route>
 
-              <Route path="/produccionlactea">
-                <ProduccionLactea />
+              <Route path="/produccion">
+                <Produccion />
               </Route> 
 
               <Route path="/modificarproduccion">

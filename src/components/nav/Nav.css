@@ -13,8 +13,14 @@
 .navbar{
     max-width: 1000px;
 	height: 13vh;
+	height: 9vh;
     background: rgb(203, 38, 42);
     margin: auto;
+}
+
+li i{
+    width: 20px;
+    top: 150px;
 }
 
 
