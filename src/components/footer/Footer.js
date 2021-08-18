@@ -1,8 +1,11 @@
 import './Footer.css';
 import React from 'react';
 import{ Link } from "react-router-dom";
-import finca from './finca.jpg';
-
+import facebook from './facebook.png';
+import twitter from './twitter.png';
+import youtube from './youtube.png';
+import instagram from './instagram.png';
+import linkedin from './linkedin.png';
 
 function Footer(){
     return (
@@ -37,46 +40,11 @@ function Footer(){
             </div>           
         </section>
 
-        <section id="card2">
-        <div className="card">
-                <img className="finca" src={finca} alt="finca"/>
-                <h3>Santa Lucia</h3>
-                <h3>Chía</h3>
-                <h5><strong>Facundo Cabrales</strong></h5>
-                <h6>01800033010</h6>
-                <h6><u>Ruta 59</u></h6>
-                <button id="btneditar">Editar</button>
-                <button id="btneliminar">Eliminar</button>
+        <section id="footer2">
+            <div className="pderechos">
+                <p>Productos Naturales de La Sabana S.A.S   Todos los derechos Reservados</p>
             </div>
         </section>
-        <section id="card5">
-        <div className="card">
-                <img className="finca" src={finca} alt="finca"/>
-                <h3>Santa Lucia</h3>
-                <h3>Chía</h3>
-                <h5><strong>Facundo Cabrales</strong></h5>
-                <h6>01800033010</h6>
-                <h6><u>Ruta 59</u></h6>
-                <button id="btneditar">Editar</button>
-                <button id="btneliminar">Eliminar</button>
-            </div>
-           
-        </section>
-        <section id="card6">
-        <div className="card">
-                <img className="finca" src={finca} alt="finca"/>
-                <h3>Santa Lucia</h3>
-                <h3>Chía</h3>
-                <h5><strong>Facundo Cabrales</strong></h5>
-                <h6>01800033010</h6>
-                <h6><u>Ruta 59</u></h6>
-                <button id="btneditar">Editar</button>
-                <button id="btneliminar">Eliminar</button>
-            </div>           
-        </section>
-        <div>
-                <button id="nuevagranja">Registrar Nueva Granja</button>
-            </div>
     </div>
     );
 }
