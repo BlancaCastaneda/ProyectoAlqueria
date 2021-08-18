@@ -1,0 +1,122 @@
+.contenedorPrincipal{
+  max-width: 1000px;
+  height: 990px;
+  margin: auto;
+  background-color: rgba(99, 100, 99, 0.1);
+  }
+
+.tituloGranjas{
+  color:#cb262a;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.card{
+  width: 260px;
+  height: 360px;
+  background-color: #f7e8c7;
+  border-radius: 4%;
+  box-shadow: rgb(112, 109, 109);
+  box-shadow:3px 3px 3px 1px rgba(73, 71, 71, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.finca{
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  margin: auto;
+ 
+}
+.listadoGranjas{
+  background-color: rgba(99, 100, 99, 0.2);
+  width: 300px;
+  height: 50px;
+  border:none;
+  border-radius: 5px 5px 5px 5px;
+}
+.listadoGranjas1{
+  display: flex;
+  align-items: center;
+}
+h3{
+  text-align: center;
+  color: #3a9fe3;
+  font-size:x-large;
+}
+h4{
+  text-align: center;
+  color: #3a9fe3;
+  font-size: 20px;
+}
+h5{
+  text-align: center;
+  color: #636463;
+  stroke: #636463;
+  padding: 1.8px;
+  font-size: 18px;
+}
+h6{
+  text-align: center;
+  color: #636463;
+}
+.botonesCard{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+#btneditar{
+  width: 80px;
+  height: 30px;
+  border-radius: 20px 20px 20px 20px;
+  background-color:#3a9fe3;
+  color: white;
+
+}
+#btneliminar{
+  width: 80px;
+  height: 30px;
+  border-radius: 20px 20px 20px 20px;
+  background-color:#3a9fe3;
+  color: white;
+}
+
+.nuevaGranja{
+  width: 400px;
+  height: 50px;
+  background-color: #3a9fe3;
+  color: white;
+  font-size: 25px;
+  border-color: rgb(70, 71, 67);
+  border-radius: 40px 40px 40px 40px;  
+  box-shadow:2px 2px 2px 1px rgba(73, 71, 71, 0.2);
+  
+}
+.btnNueva{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contenedorGranjas{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 20px;
+  padding: 20px;
+
+
+}
+.contenedorCard{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
